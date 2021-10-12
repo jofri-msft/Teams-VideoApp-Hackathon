@@ -1,5 +1,5 @@
 microsoftTeams.initialize(() => {}, [
-  "https://lubobill1990.github.io",
+  "https://jofri-msft.github.io",
 ]);
 
 // This is the effect for processing
@@ -49,7 +49,10 @@ function effectParameterChanged(effectName) {
     if (effectName === "f36d7f68-7c71-41f5-8fd9-ebf0ae38f949") {
       appliedEffect.proportion = 2;
       appliedEffect.pixelValue = 200;
-    } else {
+    } else if (effectName === "dd098f09-d41a-4f3f-abe6-076f5f743b27") {
+      appliedEffect.proportion = 2;
+      appliedEffect.pixelValue = 200;
+    }else {
       // if effectName is string sent from Teams client, the apply the effectName
       try {
         appliedEffect = {
