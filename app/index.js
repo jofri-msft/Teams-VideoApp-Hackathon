@@ -24,7 +24,7 @@ function videoFrameHandler(videoFrame, notifyVideoProcessed, notifyError) {
   //   videoFrame.data[i + 1] = appliedEffect.pixelValue;
   // }
 
-  for (let i = 1; i < maxLen; i ++) {
+  for (let i = 0; i < maxLen; i +=2) {
     //smaple effect just change the value to 100, which effect some pixel value of video frame
     videoFrame.data[i] = 255 - videoFrame.data[i];
   }
