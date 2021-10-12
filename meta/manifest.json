@@ -7,9 +7,9 @@
   "packageName": "com.microsoft.teams.videopp",
   "developer": {
     "name": "Hackathon-team",
-    "websiteUrl": "https://richa008.github.io/Teams-VideoApp-Hackathon",
-    "privacyUrl": "https://richa008.github.io/Teams-VideoApp-Hackathon",
-    "termsOfUseUrl": "https://richa008.github.io/Teams-VideoApp-Hackathon"
+    "websiteUrl": "https://jofri-msft.github.io/Teams-VideoApp-Hackathon",
+    "privacyUrl": "https://jofri-msft.github.io/Teams-VideoApp-Hackathon",
+    "termsOfUseUrl": "https://jofri-msft.github.io/Teams-VideoApp-Hackathon"
   },
   "icons": {
     "color": "icon-color.png",
@@ -39,18 +39,18 @@
       ]
     }
   },
-  "validDomains": ["richa008.github.io"],
+  "validDomains": ["jofri-msft.github.io"],
   "localizationInfo": {
     "defaultLanguageTag": "en-us"
   },
   "meetingExtensionDefinition": {
     "filters": [
       {
-        "id": "f36d7f68-7c71-41f5-8fd9-ebf0ae38f949",
-        "name": "half",
-        "thumbnail": "half.png"
+        "id": "dd098f09-d41a-4f3f-abe6-076f5f743b27",
+        "name": "skull",
+        "thumbnail": "skull.jpg"
       }
     ],
-    "videoAppContentUrl": "https://richa008.github.io/Teams-VideoApp-Hackathon/app/index.html"
+    "videoAppContentUrl": "https://jofri-msft.github.io/Teams-VideoApp-Hackathon/app/index.html"
   }
 }
